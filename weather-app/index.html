@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title">🌤 Weather</h1>
+    <p class="subtitle">Search for a city to see the current weather and forecast</p>
+
+    <div class="search-box">
+        <div class="autocomplete">
+            <input type="text" id="cityInput" placeholder="Search for a city..." oninput="suggestCities()">
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+        <button onclick="getWeather()">Search</button>
+        <button class="location-btn" onclick="getLocationWeather()">📍</button>
+    </div>
+
+    <div class="weather-card">
+        <h2 id="location">Detecting location...</h2>
+        <div id="icon" class="icon">🌤</div>
+        <div class="temp">--°</div>
+        <p id="condition">--</p>
+
+        <div class="details">
+            <span id="feels">🌡 --°</span>
+            <span id="wind">🌬 -- km/h</span>
+        </div>
+    </div>
+
+    <h3 class="forecast-title">7-Day Forecast</h3>
+    <div class="forecast" id="forecast"></div>
+
+    <p class="footer">Powered by Open-Meteo API · Updates every few minutes</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
