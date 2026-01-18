@@ -70,5 +70,16 @@ This project is suitable for:
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home – Auto Detect Location
+![Home Screen](file:///C:/Users/vidhu/OneDrive/Desktop/weather-app/screenshots/weather%201.jpg)
+
+---
+
+### 📅 7-Day Weather Forecast
+![Forecast](screenshot-3-forecast.png)
+
+---
 
 
