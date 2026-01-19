@@ -70,16 +70,4 @@ This project is suitable for:
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home – Auto Detect Location
-![Home Screen](https://github.com/BALAESHWAR/Weather-Web-Application/blob/main/screenshots/weather%201.jpg?raw=true)
-
----
-
-### 📅 7-Day Weather Forecast
-![Forecast](https://github.com/BALAESHWAR/Weather-Web-Application/blob/main/screenshots/weather%202.jpg?raw=true)
-
----
-
 
