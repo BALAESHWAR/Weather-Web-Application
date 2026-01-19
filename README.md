@@ -1,4 +1,4 @@
-# 🌦 Auto Location Weather App
+# 🌦 Sky Cast GeoAPI App
 
 A modern, responsive weather web application that fetches and displays real-time weather data using a public API. The application automatically detects the user’s current location and also allows searching for cities with smart autocomplete suggestions.
 
